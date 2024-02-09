@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapesLab", "ShapesLab\ShapesLab.csproj", "{AE4211F4-9EBF-454B-8E81-9C8C23999ADD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapesTest", "ShapesTest\ShapesTest.csproj", "{2F000632-73DD-4F54-B41C-3D3B66E5531A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{2C86572F-B6F7-48F7-B3ED-F32A12BDFFE5}"
+	ProjectSection(SolutionItems) = preProject
+		Query.sql = Query.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE4211F4-9EBF-454B-8E81-9C8C23999ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE4211F4-9EBF-454B-8E81-9C8C23999ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE4211F4-9EBF-454B-8E81-9C8C23999ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE4211F4-9EBF-454B-8E81-9C8C23999ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F000632-73DD-4F54-B41C-3D3B66E5531A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F000632-73DD-4F54-B41C-3D3B66E5531A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F000632-73DD-4F54-B41C-3D3B66E5531A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F000632-73DD-4F54-B41C-3D3B66E5531A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41EB5645-EF4A-4FC8-B0F6-8D9E8F9932AC}
+	EndGlobalSection
+EndGlobal
